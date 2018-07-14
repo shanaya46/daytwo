@@ -1,10 +1,14 @@
-int ft_print_alphabet () {
-    char ch;
-    
-    for (ch = 'a'; ch <= 'z'; ch++) {
+#include <stdio.h>
+
+void ft_print_alphabet() {
+
+    for (char ch = 'a'; ch <= 'z'; ch++) {
       putchar(ch);
-      
     }
-    
-    return (0);
+    printf("\n");
+}
+
+int main() {
+   // printf() displays the string inside quotation
+   ft_print_alphabet();
 }
